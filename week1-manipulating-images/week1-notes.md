@@ -107,3 +107,26 @@ PACKAGE CONTENTS
 ```
 
 Lots of Python modules also publish their documenation online. Pillow's full documnetation is publish [here](https://pillow.readthedocs.io/en/stable/) There, the docstrings have been compiled into a browsable reference, and they’ve also written [a handbook with tutorials](There, the docstrings have been compiled into a browsable reference, and they’ve also written) for you to get familiar with the library's API.
+
+## How to Use PIL for Working with Images
+
+When using PIL, we typically create **Image** objects that hold the data associated with the images that we want to process. On these objects, we operate by call different methods that either return a new image object or modify the data in the image, and then end up savinf the result in a different file. 
+
+For example. If we wanted to resize an image and save the new image with a new name, we could do it with:
+
+```
+from PIL import Image
+im = Image.open("example.jpg")
+new_im = im.resize((640,480))
+new_im.save("example_resized.jpg")
+```
+
+In this case, we're using resize method that returns a new image with the new size, and then we save it into a different file. Or, if we want to rotate an image, we can use code like this:
+
+```
+from PIL import Image
+im = Image.open("example.jpg")
+im.rotate(180).resize((640,480)).save("flipped_and_resized.jpg")
+```
+
+There's a tone more that you can do with the PIL Library.
