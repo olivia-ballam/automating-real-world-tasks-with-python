@@ -1,20 +1,40 @@
-#!usr/bin/env python3
+#! /usr/bin/env python3
 
 import os
 from PIL import Image
 
-def scale_convert_images(path, rotate, resize, format, new_path):
+def rotate_scale_convert_images(path, rotate, resize, format, save_path):
+    """
+    Rotate, scale and convert images from specified directory.
 
-    directory = os.listdir(path)
-    for image in directory:
-        directory, name = os.path.join(path, image), image.split(".")[0]
-        with Image.open(directory) as im:
-            im.rotate(rotate).resize(resize).save(f"{new_path}{name}{format}")
+    Args:
+        path (str): Path to directory containing images to convert.
+        rotate (int): Rotation angle in degrees. 
+        resize (tuple(int, int)): Dimensions for resizing images (width, height).
+        format (str): Image file format extension (e.g. "jepg", "png").
+        save_path (str): Path to save the converted images. 
+
+    Raises: 
+        FileNotFoundError: If the specified 'path' or 'save_path' does not exists. 
+    """
+    try:
+        # List images in specified path
+        directory = os.listdir(path)
+        for image in directory:
+            # Loop through images in directory
+            directory, name = os.path.join(path, image), image.split(".")[0]
+            with Image.open(directory) as im:
+                # Rotate, resize, and save the image to save_path with specified file format. 
+                im.rotate(rotate).resize(resize).save(f"{save_path}{name}.{format}")
+    except FileNotFoundError as e:
+        print(f"ERROR: {e}")
+
+path = "home/student-04-c7572b35d99b@linux-instance/images/"
+save_path = "/opt/icons/"
+rotate, resize, format = [90, (128, 128), "jpeg"]
+rotate_scale_convert_images(path, rotate, resize, format, save_path)
 
 
-#path = "home/{username}/images/"
-new_path = "/opt/icons/"
-rotate, resize, format = [90, (128, 128), ".jpeg"]
-path = "/Users/oball/automating-real-world-tasks-with-python/week1-manipulating-images/testing-images/"
-scale_convert_images(path, rotate, resize, format, path)
-
+if test -d home/student-04-c7572b35d99b@linux-instance/images/; then
+  echo "Directory exists."
+fi
