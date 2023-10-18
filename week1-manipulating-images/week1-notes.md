@@ -40,6 +40,8 @@ Once we’ve done that, we can try to import the module again. And this time it 
 
 Now, how do you learn to use a library that you’ve never worked with before? It’s time to get familiar with the library’s **Application Programming Interface (API!)**.
 
+<br />
+
 ### What is an API?
 
 Application Programming Interfaces (APIs) help different pieces of software talk to each other. When you write a program, you typically use a bunch of existing libraries for the programming language of your choice. These libraries provide APIs in the form of **external** or **public** functions, classes and methods that other code can use to get their job done without having to create a lot of repeated code. 
@@ -51,6 +53,8 @@ If you look at the library's code, you’ll find it has many functions that we'r
 Library authors are free to make improvements and changes to the code behind the interface, but they shouldn’t make changes to the way the functions are called or results they provide. Because this would break the code that depends on that library. When a library author needs to make a **breaking change** to an API, then they need to have a plan in place for communicating that change to their users. That’s why **breaking changes should be saved for major version increments of a library**. 
 
 When you choose a certain library to use with your code, the first step is to get familiar with its API. You’ll need to look how the functions are called, what inputs they expect, and what outputs they’ll return.
+
+<br />
 
 ### How to Make Sense of an API? 
 
@@ -107,3 +111,35 @@ PACKAGE CONTENTS
 ```
 
 Lots of Python modules also publish their documenation online. Pillow's full documnetation is publish [here](https://pillow.readthedocs.io/en/stable/) There, the docstrings have been compiled into a browsable reference, and they’ve also written [a handbook with tutorials](There, the docstrings have been compiled into a browsable reference, and they’ve also written) for you to get familiar with the library's API.
+
+<br />
+
+## How to Use PIL for Working With Images 
+
+When using PIL, we typically create **Image** objects that hold the data associated with the images that we want to process. On these objects, we operate by calling methods that either return a new image object or modify the data in the image, and then end up saving the result in a different file. 
+
+For example, if we wanted to resize an image and save the new image with a new name, we could do it with: 
+
+```
+from PIL import Image
+im = Image.open("example.jpg")
+new_im = im.resize((640,480))
+new_im.save("example_resized.jpg")
+```
+
+In this case case, we're using the resize method that returns a new image with the new size, and then we save it into a different file. or, if we want to rotate an image, we can use code like this: 
+
+```
+from PIL import Image
+im = Image.open("example.jpg")
+new_im = im.rotate(90)
+new_im.save("example_rotated.jpg")
+```
+
+This method also returns a new image that we can then use to create the new rotated file. Because the methods return a new object, we can even combine these operations into just one line thaty rotates, resizes, and saves: 
+
+```
+from PIL import Image
+im = Image.open("example.jpg")
+im.rotate(180).resize((640,480)).save("flipped_and_resized.jpg")
+```
