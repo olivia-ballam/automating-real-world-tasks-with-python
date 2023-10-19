@@ -25,10 +25,10 @@ def rotate_scale_convert_images(path, rotate, resize, format, save_path):
     except Exception as e:
         print(f"ERROR {e}")
 
-path = "/images"
+path = "images/"
 save_path = "/opt/icons/"
 rotate, resize, format = [90, (128, 128), "JPEG"]
-rotate_scale_convert_images(path, rotate, resize, format, path)
+rotate_scale_convert_images(path, rotate, resize, format, save_path)
 
 
 
