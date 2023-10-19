@@ -13,23 +13,26 @@ def rotate_scale_convert_images(path, rotate, resize, format, save_path):
         resize (tuple(int, int)): Dimensions for resizing images (width, height).
         format (str): Image file format extension (e.g. "jepg", "png").
         save_path (str): Path to save the converted images. 
+
+    Raises: 
+        FileNotFoundError: If the specified 'path' or 'save_path' does not exists. 
     """
     try:
         
         directory = os.listdir(path)
         for image in directory:
-            if image != ".DS_Store":
-                im = Image.open(os.path.join(path, image).convert("RGB"))
-                im.rotate(rotate).resize(resize).convert("RGB").save("{0}{1}".format(path, image.split(".")[0]), format)
+            # Loop through images in directory
+            directory, name = os.path.join(path, image), image.split(".")[0]
+            with Image.open(directory) as im:
+                # Rotate, resize, and save the image to save_path with specified file format. 
+                im.rotate(rotate).resize(resize).save(f"{save_path}{name}.{format}")
+    except FileNotFoundError as e:
+        print(f"ERROR: {e}")
 
-    except Exception as e:
-        print(f"ERROR {e}")
-
-path = "images/"
+path = "home/student-04-c7572b35d99b@linux-instance/images/"
 save_path = "/opt/icons/"
-rotate, resize, format = [90, (128, 128), "JPEG"]
+rotate, resize, format = [90, (128, 128), "jpeg"]
 rotate_scale_convert_images(path, rotate, resize, format, save_path)
 
 
 
-# TODO ERROR cannot write mode LA as JPEG
