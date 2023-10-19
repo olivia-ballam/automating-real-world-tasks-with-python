@@ -13,28 +13,25 @@ def rotate_scale_convert_images(path, rotate, resize, format, save_path):
         resize (tuple(int, int)): Dimensions for resizing images (width, height).
         format (str): Image file format extension (e.g. "jepg", "png").
         save_path (str): Path to save the converted images. 
-
-    Raises: 
-        FileNotFoundError: If the specified 'path' or 'save_path' does not exists. 
     """
     try:
         # List images in specified path
         directory = os.listdir(path)
         for image in directory:
             # Loop through images in directory
-            directory, name = os.path.join(path, image), image.split(".")[0]
-            with Image.open(directory) as im:
-                # Rotate, resize, and save the image to save_path with specified file format. 
-                im.rotate(rotate).resize(resize).save(f"{save_path}{name}.{format}")
-    except FileNotFoundError as e:
-        print(f"ERROR: {e}")
-
-path = "home/student-04-c7572b35d99b@linux-instance/images/"
-save_path = "/opt/icons/"
+            if image.endswith(".tiff"):
+                name = image.split(".")[0]
+                with Image.open(os.path.join(path, image)) as im:
+                    # Rotate, resize, and save the image to save_path with specified file format. 
+                    im.rotate(rotate).resize(resize).save(f"{save_path}{name}.{format}")
+    except Exception as e:
+        print(f"ERROR {e}")
+#path = "images/"
+#save_path = "/opt/icons/"
+path = "/Users/oball/automating-real-world-tasks-with-python/week1-manipulating-images/testing_images"
+save_path = "/Users/oball/automating-real-world-tasks-with-python/week1-manipulating-images"
 rotate, resize, format = [90, (128, 128), "jpeg"]
 rotate_scale_convert_images(path, rotate, resize, format, save_path)
 
 
-if test -d home/student-04-c7572b35d99b@linux-instance/images/; then
-  echo "Directory exists."
-fi
+
