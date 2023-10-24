@@ -21,18 +21,37 @@ def rotate_scale_convert_images(path, rotate, resize, format, save_path):
         
         directory = os.listdir(path)
         for image in directory:
-            # Loop through images in directory
-            directory, name = os.path.join(path, image), image.split(".")[0]
-            with Image.open(directory) as im:
-                # Rotate, resize, and save the image to save_path with specified file format. 
-                im.rotate(rotate).resize(resize).save(f"{save_path}{name}.{format}")
+        # Loop through images in directory
+            if image != ".DS_STORE":
+                directory, name = os.path.join(path, image), image.split(".")[0]
+                with Image.open(directory) as im:
+                    # Rotate, resize, and save the image to save_path with specified file format. 
+                    im.rotate(rotate).resize(resize).convert('RGB').save(f"/opt/icons/{name}.{format}")
     except FileNotFoundError as e:
         print(f"ERROR: {e}")
 
-path = "home/student-04-c7572b35d99b@linux-instance/images/"
-save_path = "/opt/icons/"
-rotate, resize, format = [90, (128, 128), "jpeg"]
-rotate_scale_convert_images(path, rotate, resize, format, save_path)
+path = "images/"
+rotate, resize, format = [-90, (128, 128), "jpeg"]
+rotate_scale_convert_images(path, rotate, resize, format)
 
 
 
+#!/usr/bin/env python3
+
+import os
+
+from PIL import Image
+
+directory = "images/"
+
+folder = os.listdir("images")
+
+for image in folder:
+
+        if image != ".DS_Store":
+
+                im = Image.open(os.path.join(directory,image))
+
+                im.rotate(-90).resize((128,128)).convert("RGB").save(f"/opt/icons/{0}.{1}")
+
+                im.show()
