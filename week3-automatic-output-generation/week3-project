@@ -1,0 +1,14 @@
+# Week 3 Automatic Output Generation
+
+### Introduction
+
+You work for a company that sells second hand cars. Mangagement wants to get a summary of the amounts of vehicles that have been sold at the end of every month. The company already has a web service which serves sales data at the end of every month but managment wants an email to be sent out with an attached PDF so that data is more easily readable. 
+
+### What you'll do
+
+- Write a script that summarizes and process sales data into different categories 
+- Generate a PDF using Python
+- Automatically send a PDF by email
+
+
+The {} generated the most revunue 
