@@ -373,3 +373,158 @@ Many errors in cover letters are caused by copying and pasting text from one cov
 
 #### Cover letters help introduce the best points about yourself to a potential employer. Make sure that your cover letter doesn’t simply rehash the skills outlined in your resume, but adds value by describing how your skills align with the job requirements and how you would be successful in the role. To write the best cover letters, it’s helpful to research the company, identify the most important skills from the job descriptions, and prioritize and include your matching and relevant skills.
 
+## Job Searching and Professional Networking
+
+### Part 1 - Create and track your job search plan
+#### Step 1: Access the template
+
+Click the link to create a copy of the template. If you don’t have a Google account, download the template directly from the attachment below.
+
+- [Job Search Plan Template](https://docs.google.com/spreadsheets/d/1bgymriY3WQzhHLKS-ahVhR0OMA7UmpNO0h80FWNjrp0/template/preview)
+
+#### Step 2: Choose an industry or specialty
+
+Since high tech jobs exist in nearly every industry in this digital world, the first step in your job search is choosing an industry that you may enjoy. Reflect on your passions, the communities you’d like to work with, or what work gets you excited, and investigate opportunities in those areas. Here are some more examples of industries you can explore: 
+
+- Technology
+- Business
+- Medical
+- Construction
+- Government
+- Education
+- Non-Profit
+- Finance 
+- Marketing
+
+Check that you are in the **Job Tracker** tab. Once you have determined your preferred industry, record it in the **Industry** column.
+
+#### Step 3: Explore and determine your desired job
+
+Now that you know what industry you’re searching in, it’s time to get specific. For example, if you chose the education industry, you might search for jobs related to automation, cloud computing, or Python coding for a school district or university IT department. You can find similar roles in government, finance, and commercial businesses. 
+
+If you’re unsure what kinds of opportunities are available, search for a company in the industry of your choice and review the career opportunities for Python automation roles. Once you’ve found a job you are interested in, record the company, job title in the appropriate columns. Paste the link to the job description under **Job Link**.
+
+#### Step 4: Track your networking
+
+Networking can be a great tool that can lead to potential job opportunities. If you apply for a job through a referral, record the name and contact information of the person who referred you under **Referral Name** and **Referral Contact Information**.
+
+#### Step 5: Customize your resume and apply
+
+Tailor your resume and cover letter to reflect the language used in the job description and apply as soon as possible. Once you've applied to the job, identify the resume you used under **Resume Used** and the date on which you applied under **Date Applied**.
+
+#### Step 6: Prepare for and schedule your first interview
+
+If you schedule an interview with a recruiter, record the interview date, your interviewer’s name, and your interviewer’s contact information in the next three columns. 
+
+#### Step 7: Thank your interviewer
+
+Once you’ve successfully completed your first interview, make sure to send a thank you email to your interviewer within 24 hours. Remind them of who you are, what job you applied for, and thank them for their time. Your interviewer will likely appreciate your courtesy, which will make you more memorable. 
+
+Don't forget to record the date you send the thank you email under **Follow-up Email Date**.
+
+#### Step 8: Prepare for further interviews
+
+As you move forward in the application process, you will likely have at least one or two more interviews. Log any further information in remaining columns.
+
+#### Step 9: Keep trying
+
+Successfully applying to and landing a job is a competitive and difficult process. No matter the outcome of a certain application, persistence pays off!
+
+### Part 2 - Cultivate and maintain your networking relationships 
+
+Networking is a critical tool in your job search, as it can help you learn about new job opportunities, gain information on your target industry, and help open doors for your career. Cultivate your network of former and current coworkers, and use online networking platforms like LinkedIn to connect to others in your target industry. Letting your network know about your interests could lead to informational interviews with those in your target field, or referrals for job openings. Be sure to keep track of each connection you make, and each new opportunity that arises.
+
+#### Step 1: Open Tab 2 of the template
+
+Now, go to the **Network Tracker** tab.
+
+#### Step 2: Fill in personal contact information
+
+Once you’ve connected with someone, you should track your relationship with them. Record the date of your first meeting, the person’s name, and their contact information in the first three columns.
+
+#### Step 3: Record professional takeaways
+
+Make note of anything new you learned about the industry or job from your conversation under **Key Questions**. Pay close attention to any issues that your contact deems important. 
+
+#### Step 4: Recollect on common ground
+
+It is also helpful to remember interesting details or stories from your conversation, both personal and professional. Write down any professional tips, common interests, or fun facts from your conversation under **Professional Takeaways** and **Personal Talking Points**. You can use these details to build on your connection with your contact the next time you connect with them.
+
+#### Step 5: Brainstorm further questions
+
+You will most likely have more questions after your first networking session. Record these under **Further Questions**. You can use these questions to reconnect with your contact or ask future contacts.
+
+#### Step 6: Schedule your next meeting
+
+Estimate the date you next want to reach out to your contact. After your first meeting, the six-month mark is a good choice, although it could be sooner depending on your level of connection or if you agreed on next steps when speaking with them. Record the date you plan to reach out again under **Next Outreach**.
+
+
+#### Pro Tip: Save the template
+
+Finally, be sure to save a blank copy of the job search plan template you used to complete this activity. You can use it for further practice or in your own personal or professional projects.
+
+### What to Include in Your Response
+Be sure to address the following elements in your completed job search plan:
+
+Job Tracker Tab 1 should include: 
+
+- Industry	
+- Company	
+- Job Title	
+- Job Link 	
+
+
+Network Tracker Tab 2 should include:
+
+- Contact information
+- First meeting date
+- Professional takeaways
+- Common interests or fun facts
+- Further questions to ask
+- The date you plan to reach out again
+
+### Personal Branding
+
+Having a good resume and an excellent elevator pitch are important. They will show employers your skills and your work history, and they will give you a chance to impress employers with what you have done, and what you can do for them. There is one more step you can take to make sure you stand out from other candidates. Having your own personal brand will make you unique and help you stand out from other candidates. This reading will help you build your own personal brand. 
+
+#### Building your personal brand 
+Your personal brand represents you, so the first part of personal branding is to look at yourself and see what makes you unique. Brands represent what they are. Product makers use branding to help people notice their products, and to develop people’s trust in their products and keep people coming back to them. You need to build a brand that does the same things for you. 
+
+#### Taking an inventory of yourself
+Taking an inventory of your skills, interests, and things that motivate you will give you a start in building your personal brand. You can build an inventory in any order that works best for you. Here are some examples of inventory questions:
+
+- What drives you to pursue the career you chose?
+- Which of your talents and skills mean the most to you? 
+- What is something you did in the past you are very proud of doing?
+- What kinds of tasks or projects give you the most energy?
+- Think about people you admire. What do you admire about them?
+- What are your strengths and weaknesses? 
+
+These are examples, but you can use them to make your own inventory questions as well. Write the questions and the answers and keep them in a notebook or journal. 
+
+#### Get to know your audience
+
+Now that you have your personal inventory, get to know your audience. 
+
+- Study your potential employers and learn all about their organizations. Look for their values and goals and see how you can align your goals and values with theirs.
+- Identify who their influencers are. Once you know about the companies offering positions, study their needs based on what the job offers say. 
+- Identify who the stakeholders are who have the most interest in your services. 
+- Look at your inventory and match what you know about yourself to those companies’ needs. Your talents, your skills, the things that give you energy, your strengths, your knowledge and experience, and the rest of the information you put together in your inventory are all part of the recipe for your personal brand. Now that you have the information you need, you can start putting together your brand. 
+
+#### Identify some challenges the companies are facing
+
+Branding helps consumers distinguish one service from other similar services. You can expand this branding concept to you and the services you offer as a Python automation specialist.
+
+- Identify some ongoing challenges companies face dealing with IT automation. 
+- Think about solutions to those challenges, and how you can offer unique solutions to those challenges. 
+- Show potential employers how having you in their organizations will benefit them with your unique IT automation problem solving skills and knowledge of Python coding, cloud computing, and Linux environments. 
+
+#### Building your brand
+
+Now that you have taken a personal inventory, studied your audience, and identified some challenges your audience of potential employers face in their organizations, you are ready to build your personal brand. Using the information you put together, write one or two sentences that describe you and what you do. 
+
+You may need to write a few drafts before you find one you like best. Once you find the one you think is the best, you now have a brand you can use along with resumes, elevator pitches and cover letters to stand out from other candidates.
+
+#### Having a good resume and a great elevator pitch will help you impress potential employers, but having a personal brand will help you stand out from all the other candidates. It will give potential employers something to remember you out of all the applicants they are looking at for the position. 
+
+### 
